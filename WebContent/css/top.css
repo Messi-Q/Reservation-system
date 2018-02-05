@@ -1,0 +1,42 @@
+			body{
+				margin: 0px;
+				padding: 0px;
+			}
+			*{
+				font-size: 12px;
+				font-family: "微软雅黑";
+			}
+			.top{
+				width: auto;
+				height: 60px;
+				background-image: url(../img/top-right.gif);
+				margin: 0px;
+				padding: 0px;
+			}
+			.top img{
+				padding: 0px;
+				margin: 0px;
+			}
+			.usermessage{
+				margin: 0px;
+				padding: 0px;
+				position: absolute;
+				top: 10px;
+				left: 60%;
+				color: white;
+			}
+			.back{
+				width: 60px;
+				height: 20px;
+				background-repeat: no-repeat;
+				padding: 0px;
+				margin: 0px;
+				position: absolute;
+				top: 8px;
+				left: 90%;
+				color: white;
+			}
+			.back img{
+				padding: 0px;
+				margin: 0px;
+			}

@@ -1,0 +1,18 @@
+.list {
+	margin-top: 10px;
+	margin-left: 555px;
+	width: 85px;
+	height: 29px;
+	background-image: url(../img/top_bt.jpg);
+	text-align: center;
+	line-height: 32px;
+	font-weight: bold;
+}
+
+font{
+	color: red;
+}
+
+.body {
+	margin-bottom: 100px;
+}

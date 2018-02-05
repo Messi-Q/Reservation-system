@@ -1,0 +1,252 @@
+@CHARSET "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+}
+
+.container {
+	width: 60%;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#header {
+	background-image: url(../img/1257477260.gif);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-position-y: 20px;
+	height: 125px;
+}
+
+#header .login-Wrapper {
+	/*overflow: hidden;*/
+	width: 100%;
+	height: 25px;
+}
+
+#header .login {
+	background-image: url(img/topmenu_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100% 100%;
+	padding: 4px 25px;
+	margin-right: 100px;
+	float: right;
+}
+
+#header .login a {
+	color: #555;
+}
+
+#header .well {
+	width: 100%;
+	height: 50px;
+}
+
+#header .well-text {
+	width: 300px;
+	/*text-align: right;*/
+	float: right;
+	color: #F9CC9D;
+	margin-top: 25px;
+	font-size: 14px;
+}
+
+#header .tab-wrapper {
+	width: 100%;
+	height: 47px;
+	border-bottom: 3px solid #EAAA1C;
+}
+
+#header .tab-wrapper .tab {
+	float: right;
+}
+
+#header .tab-wrapper .tab a {
+	background-image: url(../img/menu.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position-x: top;
+	text-align: center;
+	padding: 0 5px;
+	width: 80px;
+	line-height: 47px;
+	display: inline-block;
+	font-size: 14px;
+	color: white;
+}
+
+#main {
+	width: 100%;
+	margin-top: 10px;
+}
+
+#main .main-left, .module {
+	/*				height: 600px;*/
+	border: 1px solid #EA9a1C;
+	border-radius: 8px;
+}
+
+#main .main-left {
+	width: 75%;
+	float: left;
+}
+
+#main .main-left .item-list {
+	padding: 10px;
+}
+
+.item-list .item {
+	width: 300px;
+	display: inline-block;
+	margin-bottom: 30px;
+	overflow: hidden;
+	min-width: 270px;
+}
+
+.item-list .item-pic img {
+	border: 1px solid #F9CC9D;
+}
+
+.item-list .item .item-pic, .item-details {
+	margin-right: 10px;
+	float: left;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.item-details ul {
+	list-style-type: none;
+	line-height: 20px;
+}
+
+.item-details .item-type {
+	margin: 10px 0;
+}
+
+#main .main-right {
+	width: 20%;
+	float: right;
+}
+
+.addbtn {
+	background-image: url(../img/cart.png);
+	background-size: 100% 100%;
+	display: block;
+	width: 77px;
+	height: 21px;
+}
+
+.main-right {
+	font-size: 12px;
+}
+
+.main-right .notice {
+	background-image: url(../img/bg.jpg);
+}
+
+.main-right .cart {
+	background-image: url(img/dingcanche.jpg);
+}
+
+.module {
+	width: 100%;
+	border: 1px solid #EA9A1C;
+	margin-bottom: 20px;
+}
+
+.main-right .module .module-header {
+	font-size: 20px;
+	color: #EA9A1C;
+	float: left;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+.main-right .module .module-more {
+	float: right;
+	margin-top: 12px;
+	margin-right: 10px;
+}
+
+.module ul {
+	padding: 10px 5px;
+}
+
+.module ul li {
+	background-image: url(../img/43.gif);
+	background-repeat: no-repeat;
+	background-position-x: 5px;
+	background-position-y: 2px;
+	padding-left: 15px;
+}
+
+.cart table {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.cart table tr {
+	text-align: right;
+}
+
+.cart table tr:first-child {
+	padding: 10px 5px;
+	text-align: center;
+	background-color: antiquewhite;
+}
+
+.order-submit {
+	background-image: url(../img/canche_submit.gif);
+}
+
+.order-cancle {
+	background-image: url(../img/quxiao2.gif);
+}
+
+.order-cancle, .order-submit {
+	margin-left: 20px;
+	display: inline-block;
+	background-size: 100% 100%;
+	width: 60px;
+	height: 20px;
+}
+
+.main-right .topsales {
+	background-image: url(img/dingcanweekmenu.jpg);
+}
+
+#footer {
+	width: 100%;
+}
+
+#footer .copyright {
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 2px solid #EA9A1C;
+	text-align: center;
+}
+
+.text-danger {
+	color: red;
+}
+
+.text-info {
+	color: gray;
+}
+
+.clear-fix {
+	clear: both;
+}
+
+.text-indent {
+	display:;
+}

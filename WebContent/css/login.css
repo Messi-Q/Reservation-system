@@ -1,0 +1,161 @@
+*{
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+.top{
+	height: 45px;
+	width: 100%;
+	background-image: url(../img/login-top-bg.gif);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.middle{
+	height: 532px;
+	width: 100%;
+	background-image: url(../img/login_bg.jpg);
+	position: absolute;
+	top: 45px;
+	left: 0px;
+}
+.left{
+	width: 45%;
+	height: 532px;
+	background-image: url(../img/login-content-bg.gif);
+	background-position-x: right;
+	background-repeat: no-repeat;
+	float: left;
+}
+.left #img{
+	position: relative;
+	top: 140px;
+	left: 48%;
+}
+.left #email{
+	width: 430px;
+	height: 20px;
+	display: block;
+	color: darkgray;
+	text-align: center;
+	line-height: 10px;
+	position: relative;
+	top: 150px;
+	left: 20%;
+}
+.left #web{
+	width: 430px;
+	height: 20px;
+	display: block;
+	color: darkgray;
+	text-align: center;
+	line-height: 10px;
+	position: relative;
+	top: 155px;
+	left: 21%;
+}
+.left #info{
+	width: 80px;
+	height: 20px;
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	float: left;
+	text-align: center;
+	line-height: 10px;
+	position: relative;
+	top: 210px;
+	left: 20%;
+}
+.left #kefu{
+	width: 80px;
+	height: 20px;
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	float: left;
+	text-align: center;
+	line-height: 10px;
+	position: relative;
+	top: 210px;
+	left: 35%;
+}
+.center{
+	width: 25%;
+	height: 70px;
+	float: left;
+	padding: 60px;
+}
+#title{
+	width: 160px;
+	height: 20px;
+	display: block;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	position: relative;
+	top: 90px;
+}
+#name{
+	width: 140px;
+	height: 20px;
+	position: relative;
+	top: 110px;
+}
+#password{
+	width: 140px;
+	height: 20px;
+	position: relative;
+	top: 130px;
+}
+#ck{
+	
+	width: 140px;
+	height: 20px;
+	position: relative;
+	top: 140px;
+	left: 65px;
+}
+.but{
+	width: 40px;
+	height: 20px;
+	border-radius: 2px;
+	margin-left: 72px;
+	position: relative;
+	top: 180px;
+}
+.end {
+	width: 242px;
+	height: 532px;
+	float: left;
+}
+.end img{
+	position: relative;
+	top:390px;
+}
+.buttom{
+	width: 100%;
+	height: 61px;
+	/*height: 400px;*/
+	background-image: url(../img/login-buttom-bg.gif);
+	background-repeat-y:no-repeat;
+	background-color: #1d3647;
+	position: absolute;
+	top: 532px;
+	text-align: center;
+	color: white;
+	overflow: hidden;
+}
+.input{
+	width: 160px;
+	height: 15px;
+	background-color: white;
+	border: 1px gainsboro solid;
+}
+#luck{
+	width: 120px;
+	height: 20px;
+	position: relative;
+	top: 128px;
+	background-image: url(../img/luck.gif);
+}
