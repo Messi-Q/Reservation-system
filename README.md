@@ -1,4 +1,4 @@
-# Reservation-System-hadoop-hdfs-mapreduce-
+# Reservation System with hadoop
 订餐系统+大数据的统计功能
 
 网上订餐系统+大数据
